@@ -32,9 +32,9 @@ XR Interaction Toolkit (3.3.1)
 
 
 
-Controller gauche :
+Controller gauche : Move
 
 
 
-Controller droit :
+Controller droit : Turn
 
