@@ -32,12 +32,13 @@ XR Interaction Toolkit (3.3.1)
 
 
 
-Controller gauche : Move
+Controller gauche : Move et Grab
 
 
 
-Controller droit : Turn
+Controller droit : Turn et Grab
 
+###### 
 
 
 Assets
