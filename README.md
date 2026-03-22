@@ -32,11 +32,11 @@ XR Interaction Toolkit (3.3.1)
 
 
 
-Controller gauche : Move et Grab
+Controller gauche : Move
 
 
 
-Controller droit : Turn et Grab
+Controller droit : Turn
 
 
 
@@ -45,6 +45,12 @@ Controller droit : Turn et Grab
 ###### Modalités d'intéraction
 
 
+
+Controller gauche : Grab
+
+
+
+Controller droit : Grab
 
 
 
@@ -58,4 +64,6 @@ Controller droit : Turn et Grab
 
 https://assetstore.unity.com/packages/3d/environments/interior-house-assets-urp-257122#description
 https://assetstore.unity.com/packages/3d/props/electronics/tv-led-30-336056
+
+https://assetstore.unity.com/packages/vfx/particles/rain-particles-351846
 
