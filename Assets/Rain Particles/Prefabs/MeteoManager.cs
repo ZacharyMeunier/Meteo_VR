@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
+using Unity.VisualScripting;
 public class MeteoManager : MonoBehaviour
 {
     public TMPro.TextMeshProUGUI temperatureText;
@@ -25,7 +26,7 @@ public class MeteoManager : MonoBehaviour
             temperatureText.text = temp + "°C";
             // Activation simple selon le code
             snow.SetActive(code >= 71 && code <= 77);
-            //sun.SetActive(code == 0);
+            sun.SetActive(code == 0);
             rain.SetActive(code >= 61 && code <= 65);
         }
         else
