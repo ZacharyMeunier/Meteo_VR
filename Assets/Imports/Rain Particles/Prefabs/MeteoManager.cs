@@ -28,7 +28,8 @@ public class MeteoManager : MonoBehaviour
 
             // Activation simple selon le code
             snow.SetActive(code >= 71 && code <= 77);
-            sun.SetActive(code == 0);
+            snow.SetActive(code >= 0 && code <= 3);
+            //sun.SetActive(code >= 0 && code <= 3);
             //cloud.SetActive(code >= 1 && code <= 3);
             rain.SetActive(code >= 61 && code <= 65);
         }
