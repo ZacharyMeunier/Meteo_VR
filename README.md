@@ -54,7 +54,31 @@ Controller droit : Grab
 
 
 
+
+
+Objets à grab :
+
+
+
+Plante
+
+Mug
+
 ###### 
+
+
+
+###### Modalités de météo
+
+
+
+Ensoleillé : Lumière intense
+
+Pluie : Particules de pluie
+
+Neige : Particules de neige
+
+
 
 
 

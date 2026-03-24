@@ -24,12 +24,11 @@ public class MeteoManager : MonoBehaviour
             WeatherData data = JsonUtility.FromJson<WeatherData>(request.downloadHandler.text);
             float temp = data.current_weather.temperature;
             int code = data.current_weather.weathercode;
-            temperatureText.text = temp + "°C & code = " + code;
+            temperatureText.text = temp + "°C";
 
             // Activation simple selon le code
             snow.SetActive(code >= 71 && code <= 77);
-            snow.SetActive(code >= 0 && code <= 3);
-            //sun.SetActive(code >= 0 && code <= 3);
+            sun.SetActive(code == 0);
             //cloud.SetActive(code >= 1 && code <= 3);
             rain.SetActive(code >= 61 && code <= 65);
         }
